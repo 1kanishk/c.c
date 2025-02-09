@@ -13,7 +13,7 @@ Basiclly these are all the fundamental c language programmes.
 // int main(){
 
 //     int a = 131;
-//     int *ptra = &a;                                                    //pointer basic
+//     int *ptra = &a;                                           //pointer basic
 
 //     printf("a is : %d\n",*ptra); //  print the value of a
 
@@ -31,8 +31,8 @@ Basiclly these are all the fundamental c language programmes.
 // #include<stdio.h>
 // #include<math.h>
 
-// //declare                                                                  //basic function example
-// float circlearea(float pi, float r );
+// //declare                                                  //basic function example
+// float circlearea(float pi, float r ); 
 // float cylinderarea(float pi,float r,float h);
 // float cubearea(float a);
 
@@ -77,7 +77,7 @@ Basiclly these are all the fundamental c language programmes.
 // #include <stdio.h>
 // int main()
 // {
-//     int number;                                                                  //switch case example
+//     int number;                                             //switch case example
 //     printf("enter your month in numbers :  ");
 //     scanf("%d", &number);
 
