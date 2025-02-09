@@ -6,12 +6,14 @@ These are all my first semester c language programmes which were given to me at 
 Basiclly these are all the fundamental c language programmes. 
 <br>
 <br>
-// #include<stdio.h>
 
+// =============================================================================================================
+
+// #include<stdio.h>
 // int main(){
 
 //     int a = 131;
-//     int *ptra = &a;
+//     int *ptra = &a;                                                    //pointer basic
 
 //     printf("a is : %d\n",*ptra); //  print the value of a
 
@@ -29,7 +31,7 @@ Basiclly these are all the fundamental c language programmes.
 // #include<stdio.h>
 // #include<math.h>
 
-// //declare
+// //declare                                                                  //basic function example
 // float circlearea(float pi, float r );
 // float cylinderarea(float pi,float r,float h);
 // float cubearea(float a);
@@ -72,52 +74,10 @@ Basiclly these are all the fundamental c language programmes.
 
 // =============================================================================================================
 
-// #include<stdio.h>
-// int printstar(int n); // declaration
-
-// int main(){
-//     int n;
-//     printf("enter number");
-//     scanf("%d",&n);
-//     printstar(n); // call
-//     return 0;
-// }
-
-// int printstar(int n) // defination
-// {
-//    for (int i = 0; i < n; i++)
-//    {
-//     printf("%c",'*');
-//    }
-
-// }
-
-// =============================================================================================================
-
-// #include<stdio.h>
-
-// int sum(int x,int y); // declaration
-
-// int main(){
-
-// int add;
-// add = sum(5,5); // call
-// printf("%d",add);
-//     return 0;
-
-// }
-
-// int sum(int x,int y){  // defination
-
-//     return x+y;
-// }
-
-// =============================================================================================================
-
 // #include <stdio.h>
 // int main()
 // {
-//     int number;
+//     int number;                                                                  //switch case example
 //     printf("enter your month in numbers :  ");
 //     scanf("%d", &number);
 
@@ -163,56 +123,6 @@ Basiclly these are all the fundamental c language programmes.
 //     default:
 //         break;
 //     }
-// }
-
-// =============================================================================================================
-
-// #include <stdio.h>
-
-// void namaste()
-// {
-//     printf("namaste");
-// }
-// void bonjur()
-// {
-//     printf("bonjur");
-// }
-
-// int main()
-// {
-
-//     printf("for hindi press i for french press f = ");
-//     char ch;
-//     scanf("%c", &ch);
-
-//     if (ch=='i')
-//     {
-//         namaste();
-//     }
-//     else
-//     {
-//         bonjur();
-//     }
-
-//     return 0;
-// }
-
-
-// =============================================================================================================
-
-// #include <stdio.h>
-
-// void calculateprice(float value);
-
-// int main(){
-//     float value = 1000;
-//     calculateprice(value);
-//     return 0;
-// }
-
-// void calculateprice(float value){
-//     value = value + (0.18 * value);
-//     printf("final price is : %f",value);
 // }
 
 // =============================================================================================================
